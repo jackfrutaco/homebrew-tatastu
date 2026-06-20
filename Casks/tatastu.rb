@@ -2,7 +2,7 @@
 
 cask "tatastu" do
   version "0.1.55"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "5e9a03cec76cb0b7c008bfc72f29d4e89ce06d8383d41f1fc7cc10ce0367984e"
 
   url "https://cdn.tatastu.dev/Tatastu-#{version}-arm64.dmg"
   name "Tatastu"
