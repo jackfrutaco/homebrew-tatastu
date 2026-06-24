@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "tatastu" do
-  version "0.1.55"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.1.59"
+  sha256 "1e2fe9a4675d3be6afcb0af2deed408147d4a6435bbe37c030f313ff83dcdd6e"
 
   url "https://cdn.tatastu.dev/Tatastu-#{version}-arm64.dmg"
   name "Tatastu"
