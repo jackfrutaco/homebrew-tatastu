@@ -1,19 +1,19 @@
 # frozen_string_literal: true
 
 cask "tatastu" do
-  version "0.2.67"
+  version "0.2.68"
 
   # Per-arch payloads. electron-builder names the arm64 DMG with an "-arm64"
   # suffix and the Intel (x64) DMG with NO arch suffix, so the URLs differ in
   # shape and each arch carries its own sha256. update-homebrew-cask.sh stamps
   # both hashes from the locally-built, notarized DMGs on release.
   on_arm do
-    sha256 "ac175d4239fabcbfe78369257c836a23b7727c93fecb24ea0eda51ae9b4c1f24"
+    sha256 "32834b435cca5c0f6325aae94dc4c2f27ae09c0eedf2c1c15dd0a1c2fdf2fddf"
 
     url "https://cdn.tatastu.dev/Tatastu-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "0476cef6478e8eb963f3f437380980c7495131d8336412b10706076fcdb8cb20"
+    sha256 "f44c0c50bd00addcafcb9adcb2b9c6c22db64538533f5e0f7f1c043b39e1be0e"
 
     url "https://cdn.tatastu.dev/Tatastu-#{version}.dmg"
   end
